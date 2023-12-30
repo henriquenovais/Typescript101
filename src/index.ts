@@ -1,1 +1,3 @@
-console.log("Good stuff my boy!");
+import { User } from "./User";
+
+const something = new User();
