@@ -6,6 +6,7 @@
   "author": "Henrique Oliveira <henriquennoliveira@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@faker-js/faker": "^8.3.1"
+    "@faker-js/faker": "^8.3.1",
+    "typescript": "^5.3.3"
   }
 }
