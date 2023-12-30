@@ -2,6 +2,14 @@
 
 Small vanilla typescript project for POO practice
 
+## Install dependencies
+
+Run the following command:
+
+```
+yarn
+```
+
 ## How to run the project
 
 Use command 'npx parcel index.html' to run the project
