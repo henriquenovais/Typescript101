@@ -1,3 +1,5 @@
+import { Company } from "./Company";
 import { User } from "./User";
 
-const something = new User();
+const user = new User();
+const company = new Company();
