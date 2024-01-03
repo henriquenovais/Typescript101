@@ -1,3 +1,4 @@
+/// <reference types="@types/google.maps" />
 import { Mappable } from "./@types/maps";
 
 export class CustomMap {
