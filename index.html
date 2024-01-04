@@ -2,8 +2,6 @@
   <body>
     <div id="map" style="height: 100%"></div>
     <script>
-      const key = '<%= process.env.GOOGLE_MAPS_API_KEY %>';
-
       ((g) => {
         var h,
           a,
@@ -39,7 +37,7 @@
           ? console.warn(p + " only loads once. Ignoring:", g)
           : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
       })({
-        key,
+        key: "AIzaSyCOxpUrkuiOhLpEVd4tfrHB6hD2dUsBtBY",
         v: "weekly",
       });
     </script>
