@@ -8,12 +8,14 @@
   "dependencies": {
     "@faker-js/faker": "^8.3.1",
     "@types/google.maps": "^3.54.10",
+    "dotenv": "^16.3.1",
+    "pug": "^3.0.2",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@parcel/transformer-pug": "2.10.3",
     "buffer": "^5.5.0||^6.0.0",
     "parcel": "^2.10.3",
-    "path-browserify": "^1.0.0",
-    "posthtml-expressions": "^1.11.3"
+    "path-browserify": "^1.0.0"
   }
 }
