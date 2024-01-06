@@ -2,11 +2,13 @@
   "name": "typescript101",
   "version": "1.0.0",
   "main": "index.js",
+  "source": "index.html",
   "repository": "git@github.com:henriquenovais/Typescript101.git",
   "author": "Henrique Oliveira <henriquennoliveira@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@faker-js/faker": "^8.3.1",
+    "@plasmohq/parcel-transformer-inject-env": "^0.2.11",
     "@types/google.maps": "^3.54.10",
     "typescript": "^5.3.3"
   },
@@ -14,7 +16,6 @@
     "@parcel/transformer-pug": "2.10.3",
     "buffer": "^5.5.0||^6.0.0",
     "parcel": "^2.10.3",
-    "path-browserify": "^1.0.0",
-    "posthtml-expressions": "^1.11.3"
+    "path-browserify": "^1.0.0"
   }
 }
