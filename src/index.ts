@@ -12,9 +12,9 @@ const main = async (): Promise<void> => {
   const user = new User();
   const company = new Company();
 
-  const cool = new CustomMap();
-  cool.addMarker(user);
-  cool.addMarker(company);
+  const map = new CustomMap();
+  map.addMarker(user);
+  map.addMarker(company);
 };
 
 main();
