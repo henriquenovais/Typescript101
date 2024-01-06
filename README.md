@@ -12,4 +12,6 @@ yarn
 
 ## How to run the project
 
-Use command 'npx parcel index.html' to run the project
+```
+yarn parcel index.html
+```
